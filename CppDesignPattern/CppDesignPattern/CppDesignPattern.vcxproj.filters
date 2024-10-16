@@ -16,6 +16,9 @@
       <Filter>Singleton</Filter>
     </ClInclude>
     <ClInclude Include="pch\pch.h" />
+    <ClInclude Include="inc\ObserverSourceMaking.h" />
+    <ClInclude Include="inc\AbstractFactory.h" />
+    <ClInclude Include="inc\FactoryMethod.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
