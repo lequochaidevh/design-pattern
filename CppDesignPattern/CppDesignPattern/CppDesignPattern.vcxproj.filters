@@ -19,6 +19,8 @@
     <ClInclude Include="inc\ObserverSourceMaking.h" />
     <ClInclude Include="inc\AbstractFactory.h" />
     <ClInclude Include="inc\FactoryMethod.h" />
+    <ClInclude Include="inc\Decorator.h" />
+    <ClInclude Include="inc\Command.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
