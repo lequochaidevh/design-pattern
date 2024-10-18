@@ -152,7 +152,12 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="inc\AbstractFactory.h" />
+    <ClInclude Include="inc\Command.h" />
+    <ClInclude Include="inc\Decorator.h" />
+    <ClInclude Include="inc\FactoryMethod.h" />
     <ClInclude Include="inc\Observer.h" />
+    <ClInclude Include="inc\ObserverSourceMaking.h" />
     <ClInclude Include="pch\pch.h" />
     <ClInclude Include="inc\Singleton.h" />
   </ItemGroup>
