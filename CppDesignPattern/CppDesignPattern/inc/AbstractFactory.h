@@ -80,6 +80,7 @@ namespace nsAbstractFactory {
         for (int i = 0; i < 3; i++) {
             shapes[i]->draw();
         }
+        delete factory;
     }
 }
 

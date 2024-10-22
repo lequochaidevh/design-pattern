@@ -28,6 +28,10 @@ namespace nsSingleton {
             mRecord = 0;
         }
 
+        // Contractor set in private level to prevent delete method
+        ~Database()
+        {
+        }
     public:
 
         void editRecord(std::string operation)
@@ -52,8 +56,8 @@ namespace nsSingleton {
                     mInstancePtr = new Database(name);
                 }
                 mLocker.unlock();
-                return mInstancePtr;
             }
+            return mInstancePtr;
         }
         #elif MAKE_STATIC_OBJECT
         static Database* getInstance(std::string name)
@@ -87,7 +91,13 @@ namespace nsSingleton {
         std::cout << "This is the " << database->getName() << " database." << std::endl;
         database = Database::getInstance("employees");
         std::cout << "This is the " << database->getName() << " database.\n" << std::endl;
-        delete database;
+
+        Database* database2;
+        database2 = Database::getInstance("employees");
+        std::cout << "This is the " << database2->getName() << " database2.\n" << std::endl;
+
+
+        
     }
         
 }
