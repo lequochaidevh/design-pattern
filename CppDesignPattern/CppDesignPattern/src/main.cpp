@@ -9,10 +9,11 @@
 #include "Strategy.h"
 #include "Adapter.h"
 #include "State.h"
+#include "ChainOfResonsibility.h"
 #include <iostream>
 
 int main() {
-	nsState::programTest();
+	nsChainOfResponsibility::programTest();
 
 	std::cout << "------ END MAIN ------ \n";
 	return 0;

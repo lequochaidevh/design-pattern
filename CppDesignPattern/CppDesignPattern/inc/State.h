@@ -86,7 +86,7 @@ namespace nsState {
         {
             // simulate the form checking
             std::uniform_int_distribution<int> int_distribution(0, 9);
-            bool isFormOk = (int_distribution(mRandomGenerator) > 5);
+            bool isFormOk = (int_distribution(mRandomGenerator) > 3);
 
             if (isFormOk && mRobot->getCount() > 0) {
                 std::cout << "Congratulations, you were approved." << std::endl;
@@ -309,7 +309,7 @@ namespace nsState {
             std::uniform_int_distribution<int> i_HaveFreeRoom(0, 9);
             std::random_device mFreeRoomNumber;
             std::uniform_int_distribution<int> i_FreeRoomNumber(1, 3);
-            if (i_HaveFreeRoom(mHaveFreeRoom) > 8) { // percent return room 1/10
+            if (i_HaveFreeRoom(mHaveFreeRoom) > 7) { // percent return room 1/10
                 int iTemp = i_FreeRoomNumber(mFreeRoomNumber);
                 int infor = robot.afterFreeRoom(iTemp);
 

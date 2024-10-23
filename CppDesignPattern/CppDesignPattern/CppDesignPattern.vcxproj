@@ -154,6 +154,7 @@
   <ItemGroup>
     <ClInclude Include="inc\AbstractFactory.h" />
     <ClInclude Include="inc\Adapter.h" />
+    <ClInclude Include="inc\ChainOfResonsibility.h" />
     <ClInclude Include="inc\Command.h" />
     <ClInclude Include="inc\Decorator.h" />
     <ClInclude Include="inc\FactoryMethod.h" />
