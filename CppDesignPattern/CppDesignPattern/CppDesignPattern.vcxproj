@@ -159,6 +159,7 @@
     <ClInclude Include="inc\FactoryMethod.h" />
     <ClInclude Include="inc\Observer.h" />
     <ClInclude Include="inc\ObserverSourceMaking.h" />
+    <ClInclude Include="inc\State.h" />
     <ClInclude Include="inc\Strategy.h" />
     <ClInclude Include="pch\pch.h" />
     <ClInclude Include="inc\Singleton.h" />

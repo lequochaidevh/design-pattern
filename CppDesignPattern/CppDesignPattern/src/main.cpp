@@ -8,10 +8,13 @@
 #include "Command.h"
 #include "Strategy.h"
 #include "Adapter.h"
+#include "State.h"
 #include <iostream>
+
 int main() {
-	nsSingleton::programTest();
+	nsState::programTest();
 
 	std::cout << "------ END MAIN ------ \n";
 	return 0;
 }
+
