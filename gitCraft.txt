@@ -1,0 +1,2 @@
+git checkout -b "add-
+git add -A ':!CppDesignPattern\.vs' ':!gitCraft.txt'
