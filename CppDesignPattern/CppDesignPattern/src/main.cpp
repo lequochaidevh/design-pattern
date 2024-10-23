@@ -1,15 +1,18 @@
 #include "pch.h"
-#include "Observer.h"
-#include "ObserverSourceMaking.h"
-#include "Singleton.h"
-#include "FactoryMethod.h"
-#include "AbstractFactory.h"
-#include "Decorator.h"
-#include "Command.h"
-#include "Strategy.h"
-#include "Adapter.h"
-#include "State.h"
-#include "ChainOfResonsibility.h"
+#include "Behavioral/Observer.h"
+#include "Behavioral/ObserverSourceMaking.h"
+#include "Behavioral/State.h"
+#include "Behavioral/Command.h"
+#include "Behavioral/Strategy.h"
+#include "Behavioral/ChainOfResonsibility.h"
+
+#include "Creational/Singleton.h"
+#include "Creational/FactoryMethod.h"
+#include "Creational/AbstractFactory.h"
+
+#include "Structural/Decorator.h"
+#include "Structural/Adapter.h"
+
 #include <iostream>
 
 int main() {
