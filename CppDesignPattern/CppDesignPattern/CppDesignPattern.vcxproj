@@ -153,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\Creational\AbstractFactory.h" />
+    <ClInclude Include="inc\Creational\Builder.h" />
     <ClInclude Include="inc\Structural\Adapter.h" />
     <ClInclude Include="inc\Behavioral\ChainOfResonsibility.h" />
     <ClInclude Include="inc\Behavioral\Command.h" />

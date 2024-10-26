@@ -9,6 +9,7 @@
 #include "Creational/Singleton.h"
 #include "Creational/FactoryMethod.h"
 #include "Creational/AbstractFactory.h"
+#include "Creational/Builder.h"
 
 #include "Structural/Decorator.h"
 #include "Structural/Adapter.h"
@@ -16,7 +17,7 @@
 #include <iostream>
 
 int main() {
-	nsChainOfResponsibility::programTest();
+	nsBuilder::programTest();
 
 	std::cout << "------ END MAIN ------ \n";
 	return 0;

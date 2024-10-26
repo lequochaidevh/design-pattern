@@ -25,6 +25,7 @@
     <ClInclude Include="inc\Structural\Adapter.h" />
     <ClInclude Include="inc\Behavioral\State.h" />
     <ClInclude Include="inc\Behavioral\ChainOfResonsibility.h" />
+    <ClInclude Include="inc\Creational\Builder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />

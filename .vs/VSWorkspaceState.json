@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CppDesignPattern",
+    "\\CppDesignPattern\\CppDesignPattern",
+    "\\CppDesignPattern\\CppDesignPattern\\inc",
+    "\\CppDesignPattern\\CppDesignPattern\\inc\\Behavioral",
+    "\\CppDesignPattern\\CppDesignPattern\\inc\\Creational",
+    "\\CppDesignPattern\\CppDesignPattern\\inc\\Structural",
+    "\\CppDesignPattern\\CppDesignPattern\\src"
+  ],
+  "SelectedNode": "\\CppDesignPattern\\CppDesignPattern\\inc\\Creational\\Builder.h",
+  "PreviewInSolutionExplorer": false
+}
