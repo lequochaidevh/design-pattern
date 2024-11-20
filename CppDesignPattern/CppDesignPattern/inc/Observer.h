@@ -21,7 +21,7 @@ namespace nsObserver {
     class Database : public ISubject
     {
     private:
-        std::vector<IObserver*> mObservers;
+        std::vector<IObserver*> mObservers; //can design list at ISubject (private)
         std::string mOperation;
         std::string mRecord;
 
